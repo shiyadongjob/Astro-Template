@@ -32,12 +32,12 @@ const testimonials = reviewsData.testimonials;
 		<ul class="cs-card-group">
 			{testimonials && testimonials.map((item) => (
 				<li class="cs-item">
-					<Image class="cs-stars" src={starsSvg} alt="stars" width={96} height={16} loading="lazy" decoding="async" aria-hidden="true" />
+					<Image class="cs-stars" src={starsSvg} alt="stars" width={96} height={16} format="svg" format="svg" loading="lazy" decoding="async" aria-hidden="true" />
 					<p class="cs-review">
 						{item.quote}
 					</p>
 					<div class="cs-flex-group">
-						<Image class="cs-profile" src={profileSvg} alt="profile" width={52} height={52} loading="lazy" decoding="async" aria-hidden="true" />
+						<Image class="cs-profile" src={profileSvg} alt="profile" width={52} height={52} format="svg" format="svg" loading="lazy" decoding="async" aria-hidden="true" />
 						<span class="cs-name">{item.name}</span>
 						<span class="cs-job">{item.role}</span>
 					</div>
