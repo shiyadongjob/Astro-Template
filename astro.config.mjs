@@ -4,6 +4,9 @@ import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
 	site: "https://www.yourwebsite.com", // update me!
+	image: {
+		dangerouslyProcessSVG: true,
+	},
 	i18n: {
 		defaultLocale: "en",
 		locales: ["en", "fr"],
