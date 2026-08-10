@@ -1,13 +1,23 @@
 # Use DecapBridge auth (required)
 # REPLACE WITH YOUR OWN CREDENTIALS - See README.md for tutorial
+#local_backend: true
+#backend:
+#    name: git-gateway
+#    repo: CodeStitchOfficial/Advanced-Astro-i18n
+#    branch: main
+#    auth_type: pkce
+#    base_url: https://auth.decapbridge.com
+#    auth_endpoint: /sites/e1004ade-7b8d-4155-be79-243e5bb39f2d/pkce
+#    auth_token_endpoint: /sites/e1004ade-7b8d-4155-be79-243e5bb39f2d/token
+#    gateway_url: https://gateway.decapbridge.com
 backend:
     name: git-gateway
-    repo: CodeStitchOfficial/Advanced-Astro-i18n
+    repo: shiyadongjob/Astro-Template
     branch: main
     auth_type: pkce
     base_url: https://auth.decapbridge.com
-    auth_endpoint: /sites/e1004ade-7b8d-4155-be79-243e5bb39f2d/pkce
-    auth_token_endpoint: /sites/e1004ade-7b8d-4155-be79-243e5bb39f2d/token
+    auth_endpoint: /sites/eb71c65-7245-478f-9ebd-3d0e59a7fda9/pkce
+    auth_token_endpoint: /sites/eb71c65-7245-478f-9ebd-3d0e59a7fda9/token
     gateway_url: https://gateway.decapbridge.com
 
     # See who did what (optional)
