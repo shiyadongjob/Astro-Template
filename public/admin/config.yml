@@ -40,7 +40,7 @@ auth:
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
 # Add site links in Decap CMS (optional)
-site_url: https://advanced-astro-kit-i18n.netlify.app
+site_url: https://astro-template-288.pages.dev
 
 media_folder: src/assets/images/blog # Location where files will be stored in the repo - we store them in src so that Astro can optimize them.
 public_folder: "@assets/images/blog" # Same folder as above, but using a path alias for easier referencing in the markdown files.
